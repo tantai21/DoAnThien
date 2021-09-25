@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  margin-top: -50px;
+}
+.header .search input {
+  width: 600px;
+  padding: 12px;
+}
+
+.header .search i {
+  padding: 12px;
+  background: orange;
+}
+
+.header .phone {
+  display: flex;
+  margin-right: 7%;
+}
+
+.header .phone i {
+  font-size: 20px;
+  padding: 12px;
+  margin-right: 6px;
+  color: white;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.header .bottom ul {
+  list-style: none;
+  display: flex;
+}
+
+.header .bottom {
+  position: absolute;
+  bottom: 16px;
+  margin-left: 7%;
+}
+
+.header .bottom ul li a {
+  color: white;
+  padding-right: 16px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.header .logo {
+  margin-left: 7%;
+}
+
+.header {
+  background-color: #003c72;
+  color: white;
+  height: 230px;
+  position: relative;
+}
+
+.background {
+  background: url(../images/background.jpg) center / cover no-repeat;
+  height: 400px;
+}
+
+.content .imgs {
+  width: 100%;
+}
+
+.content h3 {
+  color: #003c72;
+  padding: 12px 0;
+  padding-left: 7%;
+}
+
+.content .box {
+  color: #96a1a3;
+  background: #e5f1ff;
+  position: relative;
+  height: 430px;
+}
+
+.content .text {
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+}
+
+.content .text i {
+  padding-left: 7%;
+}
+.content .timer,
+.date {
+  padding-bottom: 6px;
+}
+
+.content .box p {
+  color: orange;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 12%;
+}
+
+.content button {
+  color: white;
+  background-color: #d68510;
+  border: none;
+  padding: 6px 12px;
+}
+
+.content .money {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  right: 12px;
+}
+
+.wrap {
+  display: grid;
+  margin: 0 7%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 12px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #d68510;
+}
+
+h2:last-of-type {
+  margin-top: 100px;
+}

@@ -68,11 +68,10 @@
   background: url(../images/background.jpg) center / cover no-repeat;
   height: 400px;
 }
-
-.box {
-  height: 300px;
-  width: 400px;
+.phone-item p {
+  color: #d68510;
 }
+
 .box img {
   height: 300px;
   width: 100%;
@@ -88,12 +87,13 @@
   color: #96a1a3;
   background: #e5f1ff;
   position: relative;
-  height: 430px;
+  height: 460px;
+  margin-right: 12px;
+  width: 100%;
 }
 
 .content .text {
   width: 100%;
-  bottom: 50px;
 }
 
 .content .text i {

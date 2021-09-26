@@ -69,7 +69,12 @@
   height: 400px;
 }
 
-.content .imgs {
+.box {
+  height: 300px;
+  width: 400px;
+}
+.box img {
+  height: 300px;
   width: 100%;
 }
 
@@ -87,7 +92,6 @@
 }
 
 .content .text {
-  position: absolute;
   width: 100%;
   bottom: 50px;
 }
@@ -123,10 +127,9 @@
 }
 
 .wrap {
-  display: grid;
+  display: flex;
+  justify-content: space-around;
   margin: 0 7%;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 12px;
 }
 
 h2 {
